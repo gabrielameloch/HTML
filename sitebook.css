@@ -1,22 +1,130 @@
+/* Estilo do corpo */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fee0ec;
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-h1 {
-  color: #c4698a9c;
-}
-h2 {
-  color: #581818;
-}
-h3 {
-  color: #581818;
-}
-h4 {
-  color: #581818;
-}
-
-p {
+/* Estilo do cabeçalho */
+header {
+  text-align: center;
   color: #000000;
-  font-size: 16px;
+  padding: 20px;
+}
+
+/* Estilo do menu de navegação */
+nav {
+  background-color: #00aea8;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilo dos itens de menu */
+.menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #ff6f61;
+}
+
+/* Estilo do rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+/* Estilo dos artigos */
+article {
+  background-color: #ecd0ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos títulos dos artigos */
+article h3 {
+  color: #00aea8;
+  font-size: 20px;
+}
+.titulo {
+  color: #000000;
+  font-size: 10x; /
+}
+
+.subtitulo {
+  color: #0b0909;
+  font-size: 18px; 
+}
+
+.titulo-sinopse1 {
+  color: #00aea8;
+  font-size: 30px; 
+}
+
+.titulo-autora1 {
+  color: #00aea8;
+  font-size: 30px; 
+}
+
+.titulo-autores {
+  color: #00aea8;
+  font-size: 30px; }
+
+.titulo-destaques {
+  color: #00aea8;
+  font-size: 30px; 
+}
+
+.titulo-autora2 {
+  color: #00aea8;
+  font-size: 30px; 
+}
+
+.titulo-sinopse2 {
+  color: #00aea8;
+  font-size: 30px; 
+}
+
+.titulo-sinopse3 {
+  color: #00aea8;
+  font-size: 30px; 
+}
+
+.titulo-autora3 {
+  color: #00aea8;
+  font-size: 30px; 
+}
+
+
+/* Estilo do texto dentro do box de texto */
+.box-de-texto p {
+  color: #00aea8;
+  font-size: 40px;
+}
+
+.destaquesdomes {
+  color: #000000;
+  font-size: 15px;
+}
+
+.autores {
+  color: #000000;
+  font-size: 15px;
 }
